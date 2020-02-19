@@ -1,0 +1,10 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/js/manifest.js": "/js/manifest.js",
+    "/js/vendor.js": "/js/vendor.js",
+    "/component/PostForm.js": "/component/PostForm.js",
+    "/component/PostList.js": "/component/PostList.js",
+    "/js/chunks/component/PostForm.js": "/js/chunks/component/PostForm.js",
+    "/js/chunks/component/PostList.js": "/js/chunks/component/PostList.js"
+}

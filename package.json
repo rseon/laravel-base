@@ -1,0 +1,30 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run dev.js && npm run dev.css",
+        "watch": "npm run watch.js & npm run watch.css",
+        "prod": "npm run prod.js && npm run prod.css",
+        "watch.css": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --watch --hide-modules --env.mixfile=webpack.css.mix --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "dev.css": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --env.mixfile=webpack.css.mix --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod.css": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --env.mixfile=webpack.css.mix --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch.js": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --watch --hide-modules --env.mixfile=webpack.js.mix --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "dev.js": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --env.mixfile=webpack.js.mix --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod.js": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --env.mixfile=webpack.js.mix --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "axios": "^0.19",
+        "bootstrap": "^4.0.0",
+        "cross-env": "^5.1",
+        "jquery": "^3.2",
+        "laravel-mix": "^5.0.1",
+        "lodash": "^4.17.13",
+        "popper.js": "^1.12",
+        "resolve-url-loader": "^2.3.1",
+        "sass": "^1.20.1",
+        "sass-loader": "7.*",
+        "vue": "^2.5.17",
+        "vue-i18n": "^8.15.3",
+        "vue-template-compiler": "^2.6.10",
+        "webpack-chunk-rename-plugin": "^1.0.3"
+    }
+}
